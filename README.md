@@ -1,7 +1,6 @@
-# ModJWT
+# ModJWT FOR MODX 2.6+
 
-
-- Required PHP 5.5++ and MODx 2.6++
+- Required PHP 5.5++
 - This package using Firebase/JWT from https://github.com/firebase/php-jwt
 
 
