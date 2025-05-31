@@ -28,6 +28,17 @@ Sample pages contain 1 HTML resource and 3 JSON pages. You can play around with 
 
 ----
 
+### Authorization Header
+
+If you are having trouble validating the Token, try adding the following line to your .htaccess configuration.
+
+    SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+    
+Some hosting stripped out "Authorization" header from http request.
+
+
+----
+
 ### Writing RSA Key
 
 *Note: don't add passphrase*
